@@ -17,6 +17,15 @@
 		D513666B25DD1D510025643E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513666A25DD1D510025643E /* ComplicationController.swift */; };
 		D513666D25DD1D520025643E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D513666C25DD1D520025643E /* Assets.xcassets */; };
 		D513667025DD1D520025643E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D513666F25DD1D520025643E /* Preview Assets.xcassets */; };
+		D513668625DD406B0025643E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513668525DD406B0025643E /* AddView.swift */; };
+		D58C1F1625DE83A000A5F989 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58C1F1525DE83A000A5F989 /* ListView.swift */; };
+		D595AABB25DD87A400C3E214 /* AddExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = D595AABA25DD87A400C3E214 /* AddExpense.swift */; };
+		D5B0C6D125E2C3430089B812 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B0C6D025E2C3430089B812 /* SettingsView.swift */; };
+		D5B1534225E011D90033D6C7 /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B1534125E011D90033D6C7 /* BudgetView.swift */; };
+		D5BD436125DFB9750083AB63 /* ExpenseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5BD435F25DFB9750083AB63 /* ExpenseModel.xcdatamodeld */; };
+		D5BD438125DFC0370083AB63 /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BD437F25DFC0370083AB63 /* Expense+CoreDataClass.swift */; };
+		D5BD438225DFC0370083AB63 /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BD438025DFC0370083AB63 /* Expense+CoreDataProperties.swift */; };
+		D5BD621B25E3BB80002096F0 /* PassingDataVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BD621A25E3BB80002096F0 /* PassingDataVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +84,15 @@
 		D513666C25DD1D520025643E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D513666F25DD1D520025643E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D513667125DD1D520025643E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D513668525DD406B0025643E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		D58C1F1525DE83A000A5F989 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D595AABA25DD87A400C3E214 /* AddExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpense.swift; sourceTree = "<group>"; };
+		D5B0C6D025E2C3430089B812 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D5B1534125E011D90033D6C7 /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
+		D5BD436025DFB9750083AB63 /* ExpenseModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExpenseModel.xcdatamodel; sourceTree = "<group>"; };
+		D5BD437F25DFC0370083AB63 /* Expense+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Expense+CoreDataClass.swift"; path = "Expenses24 WatchKit Extension/Model/Expense+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		D5BD438025DFC0370083AB63 /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Expense+CoreDataProperties.swift"; path = "Expenses24 WatchKit Extension/Model/Expense+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		D5BD621A25E3BB80002096F0 /* PassingDataVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +139,11 @@
 			isa = PBXGroup;
 			children = (
 				D513666425DD1D510025643E /* HostingController.swift */,
-				D513666625DD1D510025643E /* ContentView.swift */,
+				D5BD435F25DFB9750083AB63 /* ExpenseModel.xcdatamodeld */,
+				D5BD621725E3BB2A002096F0 /* Model */,
+				D5BD621825E3BB40002096F0 /* View */,
 				D513666825DD1D510025643E /* ExtensionDelegate.swift */,
+				D5BD621925E3BB5F002096F0 /* ViewModel */,
 				D513666A25DD1D510025643E /* ComplicationController.swift */,
 				D513666C25DD1D520025643E /* Assets.xcassets */,
 				D513667125DD1D520025643E /* Info.plist */,
@@ -137,6 +158,36 @@
 				D513666F25DD1D520025643E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5BD621725E3BB2A002096F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5BD437F25DFC0370083AB63 /* Expense+CoreDataClass.swift */,
+				D5BD438025DFC0370083AB63 /* Expense+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D5BD621825E3BB40002096F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D513666625DD1D510025643E /* ContentView.swift */,
+				D513668525DD406B0025643E /* AddView.swift */,
+				D595AABA25DD87A400C3E214 /* AddExpense.swift */,
+				D5B0C6D025E2C3430089B812 /* SettingsView.swift */,
+				D58C1F1525DE83A000A5F989 /* ListView.swift */,
+				D5B1534125E011D90033D6C7 /* BudgetView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D5BD621925E3BB5F002096F0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D5BD621A25E3BB80002096F0 /* PassingDataVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +317,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D595AABB25DD87A400C3E214 /* AddExpense.swift in Sources */,
+				D5BD438125DFC0370083AB63 /* Expense+CoreDataClass.swift in Sources */,
 				D513666725DD1D510025643E /* ContentView.swift in Sources */,
+				D5BD436125DFB9750083AB63 /* ExpenseModel.xcdatamodeld in Sources */,
 				D513666B25DD1D510025643E /* ComplicationController.swift in Sources */,
+				D58C1F1625DE83A000A5F989 /* ListView.swift in Sources */,
+				D5BD438225DFC0370083AB63 /* Expense+CoreDataProperties.swift in Sources */,
+				D513668625DD406B0025643E /* AddView.swift in Sources */,
 				D513666525DD1D510025643E /* HostingController.swift in Sources */,
+				D5B0C6D125E2C3430089B812 /* SettingsView.swift in Sources */,
 				D513666925DD1D510025643E /* ExtensionDelegate.swift in Sources */,
+				D5B1534225E011D90033D6C7 /* BudgetView.swift in Sources */,
+				D5BD621B25E3BB80002096F0 /* PassingDataVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -405,6 +466,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,7 +496,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
@@ -458,7 +520,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};
@@ -478,7 +540,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Debug;
 		};
@@ -498,7 +560,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};
@@ -568,6 +630,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D5BD435F25DFB9750083AB63 /* ExpenseModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D5BD436025DFB9750083AB63 /* ExpenseModel.xcdatamodel */,
+			);
+			currentVersion = D5BD436025DFB9750083AB63 /* ExpenseModel.xcdatamodel */;
+			path = ExpenseModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D513664625DD1D500025643E /* Project object */;
 }
