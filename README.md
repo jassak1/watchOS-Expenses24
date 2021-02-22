@@ -3,14 +3,14 @@ watchOS app - Expenses24. Created using SwiftUI. Available for watchOS 6.0 and n
 
 <table>
   <tr>
-  <td><img src="MDImg/im1.png" width=324 height=394></td>
-  <td><img src="MDImg/im2.png" width=324 height=394></td>
-  <td><img src="MDImg/im3.png" width=324 height=394></td>
+  <td><img src="MDImg/im1.png" width=224 height=294></td>
+  <td><img src="MDImg/im2.png" width=224 height=294></td>
+  <td><img src="MDImg/im3.png" width=224 height=294></td>
   </tr>
   <tr>
-  <td><img src="MDImg/im4.png" width=324 height=394></td>
-  <td><img src="MDImg/im5.png" width=324 height=394></td>
-  <td><img src="MDImg/im6.png" width=324 height=394></td>
+  <td><img src="MDImg/im4.png" width=224 height=294></td>
+  <td><img src="MDImg/im5.png" width=224 height=294></td>
+  <td><img src="MDImg/im6.png" width=224 height=294></td>
   </tr>
  </table>
 
